@@ -47,7 +47,11 @@ Rectangle {
                     text: "FILE SHUFFLER"
                     color: "white"
                     font.family: "serif"              //serif look
+<<<<<<< HEAD
                     font.letterSpacing: 1.0           // 
+=======
+                    font.letterSpacing: 1.0           //
+>>>>>>> main
                     font.bold: true
                     font.pixelSize: 24
                     horizontalAlignment: Text.AlignHCenter
@@ -80,6 +84,10 @@ Rectangle {
                             font.pixelSize: 18
                             font.bold: true
                             horizontalAlignment: Text.AlignHCenter
+<<<<<<< HEAD
+=======
+                            verticalAlignment: Text.AlignVCenter
+>>>>>>> main
                             color: buttonRow.isActive("unify") ? "yellow" : "white"
                         }
 
@@ -109,6 +117,10 @@ Rectangle {
                             font.pixelSize: 18
                             font.bold: true
                             horizontalAlignment: Text.AlignHCenter
+<<<<<<< HEAD
+=======
+                            verticalAlignment: Text.AlignVCenter
+>>>>>>> main
                             color: buttonRow.isActive("remove") ? "yellow" : "white"
                         }
 
@@ -134,10 +146,18 @@ Rectangle {
 
                         contentItem: Text {
                             anchors.centerIn: parent
+<<<<<<< HEAD
                             text: "Run Shuffler"
                             font.pixelSize: 18
                             font.bold: true
                             horizontalAlignment: Text.AlignHCenter
+=======
+                            text: "Anonymize" //Renamed "Run File Shuffler" to "Anonymize"
+                            font.pixelSize: 18
+                            font.bold: true
+                            horizontalAlignment: Text.AlignHCenter
+                            verticalAlignment: Text.AlignVCenter
+>>>>>>> main
                             color: buttonRow.isActive("run") ? "yellow" : "white"
                         }
 
@@ -226,7 +246,11 @@ Rectangle {
                     Layout.fillWidth: true
                     Layout.fillHeight: true
                     radius: 4
+<<<<<<< HEAD
                       
+=======
+
+>>>>>>> main
                     color: "white"
 
                     ScrollView {
@@ -245,7 +269,11 @@ Rectangle {
             }
         }
 
+<<<<<<< HEAD
         // STATUS TEXTS UNDER LOGS 
+=======
+        // STATUS TEXTS UNDER LOGS
+>>>>>>> main
         Text {
             id: ranText
             text: "Shuffle Complete!"
@@ -269,7 +297,11 @@ Rectangle {
 
     //  FOLDER DIALOGS
 
+<<<<<<< HEAD
     // Run File Shuffler
+=======
+    // Run File Shuffler - Renamed "Run File Shuffler" to "Anonymize"
+>>>>>>> main
     FolderDialog {
         id: fileShufflerDialog
         folder: "file:///"
